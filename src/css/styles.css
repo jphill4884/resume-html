@@ -1,0 +1,58 @@
+:root {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid #353A42;
+    position: fixed;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.slider {
+    width: 100%;
+    background-color: #353A42;
+    height: 600px;
+    top: 70px;
+    position: relative;
+    align-items: center;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 90px;
+}
+
+li {
+    border: 1px solid #353A42;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.skillsxfour {
+    display: flex;
+    flex-direction: row;
+}
+
+.skillsxfive {
+    display: flex;
+    flex-direction: row;
+}
