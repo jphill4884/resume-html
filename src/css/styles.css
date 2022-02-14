@@ -3,8 +3,17 @@
     font-size: 18px;
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 h3 {
     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h4 {
     font-weight: bold;
 }
 
@@ -55,3 +64,95 @@ li {
     display: flex;
     flex-direction: row;
 }
+
+/* Begin CV Styling */
+
+.cvmain {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cvsection {
+    display: flex;
+    flex-direction: row;
+}
+
+.cvphoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    min-width: 300px;
+
+    border: 3px solid #353a42;
+}
+
+.cvphoto img {
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+}
+
+.missionstatement, .workexperience {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: justify;
+    border-bottom: 1px solid #353A42;
+}
+
+.missionstatement h1, h3, p {
+    margin: 0.5rem 0.5rem;
+}
+
+.cvsidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #353A42;
+    color: white;
+}
+
+.cvsidebarblock {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+
+.cvsidebarblock h3 {
+  margin: 1rem 0 1rem 1rem;
+}
+
+.cvsidebarblock p {
+    margin: 0.5rem 0 0.25rem 1rem;
+    font-size: 0.8rem;
+    max-width: 225px;
+  }
+
+ .cvskillslist li {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid white;
+    border-radius: 15px;
+    min-width: 90%;
+  }
+  
+  .workdescription li {
+    min-width: 635px;
+    text-align: justify;
+    border: none;
+    margin: 0.5rem 0 0.5rem 3rem;
+    padding: 0;
+    list-style-type: disc;
+    font-size: 0.8rem;
+  }
+
+  .workdescription h1, h2, h3, h4 {
+    margin: 0.5rem 0.5rem;
+  }
+
+  table {
+    margin: 1rem 0 1rem 1rem;
+  }
