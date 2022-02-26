@@ -98,8 +98,7 @@ span .cvsection {
     justify-content: center;
     height: 300px;
     min-width: 300px;
-
-    border: 3px solid #353a42;
+    border: 1px solid #353a42;
 }
 
 .cvphoto img {
@@ -151,8 +150,33 @@ span .cvsection {
     border: 1px solid white;
     border-radius: 15px;
     min-width: 90%;
+    color: #353A42;
   }
   
+  #cvskills .html {
+    background-image: linear-gradient(to right, white 75%, #353A42);
+  }
+
+  #cvskills .css {
+    background-image: linear-gradient(to right, white 60%, #353A42);
+  }
+
+  #cvskills .js {
+    background-image: linear-gradient(to right, white 40%, #353A42);
+  }
+
+  #cvskills .gas {
+    background-image: linear-gradient(to right, white 90%, #353A42);
+  }
+
+  #cvskills .crm {
+    background-image: linear-gradient(to right, white 85%, #353A42);
+  }
+
+  #cvskills .sql {
+    background-image: linear-gradient(to right, white 65%, #353A42);
+  }
+
   .workdescription li {
     min-width: 635px;
     text-align: justify;
